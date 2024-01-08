@@ -1,0 +1,47 @@
+/* common shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav related Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* vanishing li point matk and spacing*/
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+/* getting in a line all ul list element */
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+/* under line and extra line remove: */
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.orange-primary {
+  color: #fd6e0a;
+}
+
+.nav-title {
+  font-size: 45px;
+  color: #181818;
+  font-weight: 800;
+}
+/* button color and styles */
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 18px 35px;
+}
